@@ -17,6 +17,7 @@ export default function Character({ name, description, image,save }) {
    // characters.push(character)
 
      localStorage.setItem('characters', JSON.stringify(characters))
+   window.location.reload()
     }
 
   return (
