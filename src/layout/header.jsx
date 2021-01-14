@@ -3,6 +3,10 @@
 import React from "react";
 
 export default function Header() {
+  function clear(){
+    localStorage.clear()
+    window.location.reload()
+  }
   return (
     <div>
       <img
@@ -11,7 +15,7 @@ export default function Header() {
         className="marvel-img"
       />
       <h1>Marvel API Challenge</h1>
-      <button>clear bookmarks</button>
+      <button onClick = {clear}>clear bookmarks</button>
     </div>
   );
 }

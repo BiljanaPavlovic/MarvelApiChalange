@@ -8,8 +8,15 @@ export default function CharacterList() {
   const [characters, setCharacter] = useState([]);
   const [search, setSearch] = useState("");
   const [filteredCharacters, setFilteredCharacters] = useState([]);
-//const [bookmark, setBookmark] = useState([]);
-
+  
+  let bookmarkedCharacters
+  let bookmarkedCharactersStringified = localStorage.getItem('characters')
+  if (!bookmarkedCharactersStringified) {
+    bookmarkedCharacters = []
+    localStorage.setItem('characters', JSON.stringify(bookmarkedCharacters))
+  } else {
+    bookmarkedCharacters = JSON.parse(bookmarkedCharactersStringified)
+  }
 
 
 
@@ -20,16 +27,6 @@ export default function CharacterList() {
     });
   }, []);
 
-function save() {
-  return (localStorage.setItem("characters.id", JSON.stringify(characters.id))
-  )
-}
-
-
-  /*useEffect(() => {
-  localStorage.setItem("characters", JSON.stringify(characters));
-  }, [characters]);
-  console.log(localStorage);*/
 
   useEffect(() => {
     setFilteredCharacters(
@@ -41,6 +38,17 @@ function save() {
 
   return (
     <div>
+       <div className="container">
+    {
+      bookmarkedCharacters.map((character) => {
+        return (
+          <Character
+          name={character.name}
+          key={character.id}
+          description={character.description}
+          image={character.image} />
+       ) } )}
+      </div>
       <input
         type="text"
         placeholder="&#128269; Search"
@@ -58,16 +66,7 @@ function save() {
             {...character}
           />
         ))}
-        {/*characters.map((character) => {
-          return (
-            <Character
-              name={character.name}
-              key={character.id}
-              description={character.description}
-              image={character.thumbnail.path + "/portrait_medium.jpg"}
-            />
-          );
-        })*/}
+       
       </div>
     </div>
   );
