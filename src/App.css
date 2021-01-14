@@ -38,7 +38,7 @@ h1 {
 }
 /* PHONE VERSION */
 
-@media (max-width: 640px) {
+@media (max-width: 800px) {
   .container {
     display: grid;
     grid-template-columns: auto;
