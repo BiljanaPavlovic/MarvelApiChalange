@@ -1,4 +1,4 @@
-To run this app you shud first clone it from github
+To run this app you shud first clone it from GitHub
 git clone 
 https://github.com/BiljanaPavlovic/MarvelApiChalange.git
 
@@ -7,4 +7,5 @@ cd MarvelApiChallange
 
 npm install
 npm start
-Now you can see this app in your locallhost
+Now you can see this app in your localhost.
+This app fetches data from Marvel API and displays them, users can search for favorite characters, mark them and see them again after refreshing the page.
