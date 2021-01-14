@@ -1,38 +1,54 @@
+/** @format */
+
+:root {
+  --red: #ed0f14;
+}
+
 .App {
   text-align: center;
+  color: wheat;
+  background-color: var(--red);
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  grid-gap: 6px;
 }
+.one-character {
+  margin: 10px;
+  padding: 15px;
+  border: solid 2px wheat;
+}
+.marvel-img {
+  width: 100%;
+}
+h1 {
+  color: wheat;
+  font-size: 50px;
+}
+.input-search {
+  font-size: 25px;
+  margin: 20px;
+  padding: 5px;
+  border: solid 3px wheat;
+  border-radius: 20%;
+}
+/* PHONE VERSION */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 640px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* TABLET VERSION */
+@media (max-width: 1024px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
   }
 }
