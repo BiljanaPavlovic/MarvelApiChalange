@@ -7,8 +7,8 @@
 
 //1bbdf799db540538df7081c8df69352c1a5a403fc485f93e50e06dc2ca9a511f4658d925c
 const URL =
-    "http://gateway.marvel.com/v1/public/characters?ts=1&apikey=9afc68bdf996de4ff15b4a3e8d52b215&hash=c8faf2c4d0fe4d7f477c4e7f2901fd1d"
-//  "http://gateway.marvel.com/v1/public/characters?ts=1&apikey=485f93e50e06dc2ca9a511f4658d925c&hash=5adf938555664e1f9c48a993eacbbecc";
+    //  "http://gateway.marvel.com/v1/public/characters?ts=1&apikey=9afc68bdf996de4ff15b4a3e8d52b215&hash=c8faf2c4d0fe4d7f477c4e7f2901fd1d"
+    "https://gateway.marvel.com/v1/public/characters?ts=1&apikey=485f93e50e06dc2ca9a511f4658d925c&hash=5adf938555664e1f9c48a993eacbbecc";
 
 export default function get() {
     return fetch(`${URL}`)
@@ -17,7 +17,7 @@ export default function get() {
 }
 
 
-/* birtije nalog
+/* drugi nalog
 const PublicKey = '9afc68bdf996de4ff15b4a3e8d52b215'
 const PrivateKEy = 'd20431efd6621fa590347bd0fde6fe009821b433'
 const hash = c6aa9108ae183f41dc33590476533f24
