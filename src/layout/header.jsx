@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <div>
       <img
-        src="/marvel.jpg"
+        src="/MarvelApiChallenge/marvel.jpg"
         alt="naslovna fotografija"
         className="marvel-img"
       />
