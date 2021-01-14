@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.e400e253.chunk.css",
-    "main.js": "/static/js/main.620728e8.chunk.js",
-    "main.js.map": "/static/js/main.620728e8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4011cdd5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4011cdd5.js.map",
-    "static/js/2.24e07806.chunk.js": "/static/js/2.24e07806.chunk.js",
-    "static/js/2.24e07806.chunk.js.map": "/static/js/2.24e07806.chunk.js.map",
-    "static/js/3.a80e94fb.chunk.js": "/static/js/3.a80e94fb.chunk.js",
-    "static/js/3.a80e94fb.chunk.js.map": "/static/js/3.a80e94fb.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.e400e253.chunk.css.map": "/static/css/main.e400e253.chunk.css.map",
-    "static/js/2.24e07806.chunk.js.LICENSE.txt": "/static/js/2.24e07806.chunk.js.LICENSE.txt"
+    "main.css": "/MarvelApiChallenge/static/css/main.e400e253.chunk.css",
+    "main.js": "/MarvelApiChallenge/static/js/main.620728e8.chunk.js",
+    "main.js.map": "/MarvelApiChallenge/static/js/main.620728e8.chunk.js.map",
+    "runtime-main.js": "/MarvelApiChallenge/static/js/runtime-main.f6bdaecc.js",
+    "runtime-main.js.map": "/MarvelApiChallenge/static/js/runtime-main.f6bdaecc.js.map",
+    "static/js/2.24e07806.chunk.js": "/MarvelApiChallenge/static/js/2.24e07806.chunk.js",
+    "static/js/2.24e07806.chunk.js.map": "/MarvelApiChallenge/static/js/2.24e07806.chunk.js.map",
+    "static/js/3.a80e94fb.chunk.js": "/MarvelApiChallenge/static/js/3.a80e94fb.chunk.js",
+    "static/js/3.a80e94fb.chunk.js.map": "/MarvelApiChallenge/static/js/3.a80e94fb.chunk.js.map",
+    "index.html": "/MarvelApiChallenge/index.html",
+    "static/css/main.e400e253.chunk.css.map": "/MarvelApiChallenge/static/css/main.e400e253.chunk.css.map",
+    "static/js/2.24e07806.chunk.js.LICENSE.txt": "/MarvelApiChallenge/static/js/2.24e07806.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4011cdd5.js",
+    "static/js/runtime-main.f6bdaecc.js",
     "static/js/2.24e07806.chunk.js",
     "static/css/main.e400e253.chunk.css",
     "static/js/main.620728e8.chunk.js"
