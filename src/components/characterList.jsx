@@ -8,17 +8,15 @@ export default function CharacterList() {
   const [characters, setCharacter] = useState([]);
   const [search, setSearch] = useState("");
   const [filteredCharacters, setFilteredCharacters] = useState([]);
-  
-  let bookmarkedCharacters
-  let bookmarkedCharactersStringified = localStorage.getItem('characters')
+
+  let bookmarkedCharacters;
+  let bookmarkedCharactersStringified = localStorage.getItem("characters");
   if (!bookmarkedCharactersStringified) {
-    bookmarkedCharacters = []
-    localStorage.setItem('characters', JSON.stringify(bookmarkedCharacters))
+    bookmarkedCharacters = [];
+    localStorage.setItem("characters", JSON.stringify(bookmarkedCharacters));
   } else {
-    bookmarkedCharacters = JSON.parse(bookmarkedCharactersStringified)
+    bookmarkedCharacters = JSON.parse(bookmarkedCharactersStringified);
   }
-
-
 
   useEffect(() => {
     get().then((data) => {
@@ -26,7 +24,6 @@ export default function CharacterList() {
       setCharacter(data.data.results);
     });
   }, []);
-
 
   useEffect(() => {
     setFilteredCharacters(
@@ -38,16 +35,17 @@ export default function CharacterList() {
 
   return (
     <div>
-       <div className="container">
-    {
-      bookmarkedCharacters.map((character) => {
-        return (
-          <Character
-          name={character.name}
-          key={character.id}
-          description={character.description}
-          image={character.image} />
-       ) } )}
+      <div className="container">
+        {bookmarkedCharacters.map((character) => {
+          return (
+            <Character
+              name={character.name}
+              key={character.id}
+              description={character.description}
+              image={character.image}
+            />
+          );
+        })}
       </div>
       <input
         type="text"
@@ -62,11 +60,9 @@ export default function CharacterList() {
             name={character.name}
             description={character.description}
             image={character.thumbnail.path + "/portrait_medium.jpg"}
-          
             {...character}
           />
         ))}
-       
       </div>
     </div>
   );

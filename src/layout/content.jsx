@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import CharacterList from "../components/characterList";
 
