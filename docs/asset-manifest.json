@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/MarvelApiChallenge/static/css/main.1e013cd6.chunk.css",
-    "main.js": "/MarvelApiChallenge/static/js/main.211a5203.chunk.js",
-    "main.js.map": "/MarvelApiChallenge/static/js/main.211a5203.chunk.js.map",
-    "runtime-main.js": "/MarvelApiChallenge/static/js/runtime-main.f6bdaecc.js",
-    "runtime-main.js.map": "/MarvelApiChallenge/static/js/runtime-main.f6bdaecc.js.map",
+    "main.css": "/MarvelApiChallenge/static/css/main.e514fe66.chunk.css",
+    "main.js": "/MarvelApiChallenge/static/js/main.cc553969.chunk.js",
+    "main.js.map": "/MarvelApiChallenge/static/js/main.cc553969.chunk.js.map",
+    "runtime-main.js": "/MarvelApiChallenge/static/js/runtime-main.de18f235.js",
+    "runtime-main.js.map": "/MarvelApiChallenge/static/js/runtime-main.de18f235.js.map",
     "static/js/2.24e07806.chunk.js": "/MarvelApiChallenge/static/js/2.24e07806.chunk.js",
     "static/js/2.24e07806.chunk.js.map": "/MarvelApiChallenge/static/js/2.24e07806.chunk.js.map",
-    "static/js/3.a80e94fb.chunk.js": "/MarvelApiChallenge/static/js/3.a80e94fb.chunk.js",
-    "static/js/3.a80e94fb.chunk.js.map": "/MarvelApiChallenge/static/js/3.a80e94fb.chunk.js.map",
+    "static/js/3.5aca33dc.chunk.js": "/MarvelApiChallenge/static/js/3.5aca33dc.chunk.js",
+    "static/js/3.5aca33dc.chunk.js.map": "/MarvelApiChallenge/static/js/3.5aca33dc.chunk.js.map",
     "index.html": "/MarvelApiChallenge/index.html",
-    "static/css/main.1e013cd6.chunk.css.map": "/MarvelApiChallenge/static/css/main.1e013cd6.chunk.css.map",
+    "static/css/main.e514fe66.chunk.css.map": "/MarvelApiChallenge/static/css/main.e514fe66.chunk.css.map",
     "static/js/2.24e07806.chunk.js.LICENSE.txt": "/MarvelApiChallenge/static/js/2.24e07806.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f6bdaecc.js",
+    "static/js/runtime-main.de18f235.js",
     "static/js/2.24e07806.chunk.js",
-    "static/css/main.1e013cd6.chunk.css",
-    "static/js/main.211a5203.chunk.js"
+    "static/css/main.e514fe66.chunk.css",
+    "static/js/main.cc553969.chunk.js"
   ]
 }

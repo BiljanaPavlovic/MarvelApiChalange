@@ -34,23 +34,10 @@ h1 {
   border: solid 3px wheat;
   border-radius: 20%;
 }
-/* PHONE VERSION */
 
-@media (max-width: 768px) {
-  .container {
-    display: grid;
-    grid-column: 100%;
-  }
-  .one-character {
-    padding: 10px;
-    margin: 20px;
-  }
-}
-
-/* TABLET VERSION */
 @media (max-width: 1024px) {
   .container {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
   }
 }
